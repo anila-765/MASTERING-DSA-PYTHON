@@ -1,5 +1,8 @@
 '''
+complexity => O(logn)
+
 algorithm
+-----------
 a = [1,3,8,28,42,43,99,101,102] #sorted array
 x=int(input("enter search element)")
 low = 0
@@ -13,6 +16,7 @@ while low<= high:
     else:
         low = mid-1
 return -1
+-----------------------------------------------------
 '''
 
 def binary_search(a, x):
